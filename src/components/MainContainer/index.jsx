@@ -1,4 +1,4 @@
-import { MainBackground,ContentBackground,Content,PicnomicWordContainer,PicnomicAiImgContainer,PicnomicImgMainContainer,PicnomicImgContainer,PicnomicImg,PicnomicImgGreyContainer,AiImgContainer,MainHead,Break,SpanEl,MainPara,PageDescription,DescriptionContainer, JoinUs,ButtonPara,ArrowIcon,HummingBeeImg} from "./styledComponents"
+import { ButtonContainer,PicnimicBottomContainer,WeAllContainer,MainBackground,ContentBackground,Content,PicnomicWordContainer,PicnomicAiImgContainer,PicnomicImgMainContainer,PicnomicImgContainer,PicnomicImg,PicnomicImgGreyContainer,AiImgContainer,MainHead,Break,SpanEl,MainPara,PageDescription,DescriptionContainer, JoinUs,ButtonPara,ArrowIcon,HummingBeeImg} from "./styledComponents"
 import NavBar from "../NavBar"
 import { AiImgItems } from "../AiImgItems"
 
@@ -13,26 +13,30 @@ const MainContainer = ()=><MainBackground>
                 <PicnomicImg src='/Pictures/Group 22.png' />
                 <PicnomicImgGreyContainer/>
             </PicnomicImgContainer>
-            <PicnomicAiImgContainer>
-                <AiImgContainer>
-                    {imagesList.map((eachItem)=>(<AiImgItems data={eachItem} key={eachItem.id}/>))}
-                </AiImgContainer>
-            </PicnomicAiImgContainer>
-        </PicnomicImgMainContainer>
-        <PicnomicWordContainer>
-            <MainHead>We All <SpanEl> Hate</SpanEl> <SpanEl> <Break/> Pixelated <Break/> Images </SpanEl> </MainHead>
+            <WeAllContainer>
+                <MainHead>We All <SpanEl> Hate</SpanEl> <SpanEl> <Break/> Pixelated <Break/> Images </SpanEl> </MainHead>
+                <HummingBeeImg src="/Pictures/Group 26.png"/>
             <MainPara>AI Based Image Enhancer </MainPara>
             <DescriptionContainer>
             <PageDescription>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</PageDescription>
+            
             </DescriptionContainer>
-            <JoinUs>
+            </WeAllContainer>
+        </PicnomicImgMainContainer>
+        <PicnimicBottomContainer>
+        <PicnomicAiImgContainer>
+                <AiImgContainer>
+                    {imagesList.map((eachItem)=>(<AiImgItems data={eachItem} key={eachItem.id}/>))}
+                </AiImgContainer>
+        </PicnomicAiImgContainer>
+        <ButtonContainer><JoinUs>
                 <ButtonPara>Join Now</ButtonPara>
                 <ArrowIcon src="/Pictures/arrow-right.png"/>
             </JoinUs>
-        </PicnomicWordContainer>
+            </ButtonContainer>
+        </PicnimicBottomContainer>
     </Content>
     </ContentBackground>
-    <HummingBeeImg src="/Pictures/Group 26.png"/>
     </MainBackground>
 
 
