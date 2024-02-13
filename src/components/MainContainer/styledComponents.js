@@ -46,11 +46,11 @@ export const PicnomicImgContainer=styled.div`
     border-radius:20px;
 `
 export const PicnomicImg = styled.img`
-margin-left:3.5vw;
+margin-left:2vw;
 height:86.39px;
 width:326px;
-margin-top:30px;
-margin-bottom:30px;
+margin-top:2vw;
+margin-bottom:2vw;
 `
 export const PicnomicImgGreyContainer=styled.div`
     background-color:#f6f6f6;
@@ -113,13 +113,14 @@ margin-bottom:0px;
 `
 
 export const PageDescription = styled.p`
-font-size: 1vw;
+font-size: 0.9vw;
 font-weight: 400;
 line-height: 21.78px;
 letter-spacing: 0em;
 text-align: left;
 margin-top:3vw;
 font-family:"inter";
+color:#686868;
 `
 
 export const DescriptionContainer = styled.div`
@@ -173,7 +174,7 @@ export const ArrowIcon = styled.img`
 export const HummingBeeImg = styled.img`
     display:inline-block;
     position:absolute;
-    right:6%;
+    right:9%;
     width:37%;
     transform: translateY(-8vw);
 `
