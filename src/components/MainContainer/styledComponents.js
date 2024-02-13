@@ -46,7 +46,7 @@ export const PicnomicImgContainer=styled.div`
     border-radius:20px;
 `
 export const PicnomicImg = styled.img`
-margin-left:100px;
+margin-left:3.5vw;
 height:86.39px;
 width:326px;
 margin-top:30px;
@@ -94,15 +94,15 @@ export const PicnomicWordContainer=styled.div`
 
 export const MainHead = styled.h1`
     font-weight:800;
-    font-size:100px;
+    font-size:4.5vw;
     margin:0px;
     font-style:"Inter";
-    line-height:88.57px;
+    line-height:4vw;
 
 `
 
 export const MainPara = styled.p`
-font-size: 28px;
+font-size: 1.2vw;
 font-weight: 700;
 line-height: 34px;
 letter-spacing: 0em;
@@ -113,13 +113,12 @@ margin-bottom:0px;
 `
 
 export const PageDescription = styled.p`
-font-size: 18px;
+font-size: 1vw;
 font-weight: 400;
 line-height: 21.78px;
 letter-spacing: 0em;
 text-align: left;
-margin-top:0px;
-margin-top:20px;
+margin-top:3vw;
 font-family:"inter";
 `
 
@@ -176,7 +175,7 @@ export const HummingBeeImg = styled.img`
     position:absolute;
     right:6%;
     width:37%;
-    transform: translateY(-30%);
+    transform: translateY(-8vw);
 `
 export const WeAllContainer = styled.div`
 width:100%;
