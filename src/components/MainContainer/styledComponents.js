@@ -13,7 +13,6 @@ export const MainBackground = styled.div`
 
 export const ContentBackground = styled.div`
     width:82%;
-    max-width:1570px;
     height:88%;
     background:linear-gradient(to bottom,#D9D9D9,#F8FFCC);
     border-radius:10px;
