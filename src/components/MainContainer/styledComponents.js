@@ -12,8 +12,8 @@ export const MainBackground = styled.div`
 `
 
 export const ContentBackground = styled.div`
-    width:82%;
-    height:88%;
+    width:100%;
+    height:100%;
     background:linear-gradient(to bottom,#D9D9D9,#F8FFCC);
     border-radius:10px;
 `
@@ -93,28 +93,29 @@ export const PicnomicWordContainer=styled.div`
 
 export const MainHead = styled.h1`
     font-weight:800;
-    font-size:4.5vw;
-    margin:0px;
+    font-size:6vw;
+    margin-top:0.5vw;
     font-style:"Inter";
-    line-height:4vw;
+    line-height:5.2vw;
+    margin-bottom:0px;
 
 `
 
 export const MainPara = styled.p`
-font-size: 1.2vw;
+font-size: 1.7vw;
 font-weight: 700;
 line-height: 34px;
 letter-spacing: 0em;
 text-align: left;
 color:#718400;
-margin-top:25px;
+margin-top:1.5vw;
 margin-bottom:0px;
 `
 
 export const PageDescription = styled.p`
-font-size: 0.9vw;
+font-size: 1vw;
 font-weight: 400;
-line-height: 21.78px;
+line-height: 1.3vw;
 letter-spacing: 0em;
 text-align: left;
 margin-top:3vw;
@@ -123,7 +124,7 @@ color:#686868;
 `
 
 export const DescriptionContainer = styled.div`
-    width:48%;
+    width:45%;
 
 `
 
@@ -144,8 +145,8 @@ justify-content:flex-start;
 `
 
 export const JoinUs = styled.button`
-    width:242px;
-    height:48px;
+    width:12vw;
+    height:2vw;
     background-color:#E1FF2B;
     display:flex;
     justify-content:space-between;
@@ -161,21 +162,23 @@ export const JoinUs = styled.button`
 `
 
 export const ButtonPara = styled.p`
-font-size: 12px;
+font-size: 0.6vw;
 font-weight: 500;
 line-height: 15px;
 letter-spacing: 0em;
 text-align: left;
 `
 export const ArrowIcon = styled.img`
+width:0.6vw;
+height:0.6vw;
 `
 
 export const HummingBeeImg = styled.img`
     display:inline-block;
     position:absolute;
-    right:9%;
-    width:37%;
-    transform: translateY(-8vw);
+    right:-1vw;
+    width:45%;
+    transform: translateY(-10.5vw);
 `
 export const WeAllContainer = styled.div`
 width:100%;
