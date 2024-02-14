@@ -14,8 +14,7 @@ const MainContainer = ()=>
                 <PicnomicImgGreyContainer/>
             </PicnomicImgContainer>
             <WeAllContainer>
-                <MainHead>We All <SpanEl> Hate</SpanEl> <SpanEl> <Break/> Pixelated <Break/> Images </SpanEl> </MainHead>
-                <HummingBeeImg src="/Pictures/Group 26.png"/>
+                <MainHead>We All <SpanEl> Hate</SpanEl> <SpanEl> <Break/> Pixelated <Break/> Images <HummingBeeImg src="/Pictures/Group 26.png"/> </SpanEl> </MainHead>
             <MainPara>AI Based Image Enhancer </MainPara>
             <DescriptionContainer>
             <PageDescription>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</PageDescription>

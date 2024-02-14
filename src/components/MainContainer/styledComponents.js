@@ -9,6 +9,7 @@ export const MainBackground = styled.div`
     justify-content:center;
     align-items:center;
     background-color:#000000;
+
 `
 
 export const ContentBackground = styled.div`
@@ -16,21 +17,24 @@ export const ContentBackground = styled.div`
     width:100vw;
     height:100vh;
     background:linear-gradient(to bottom,#D9D9D9,#F8FFCC);
-    padding-top:1vw;
+    padding-top:2vh;
+    display:flex;
+    flex-direction:column;
 `
 
 export const Content=styled.div`
-    padding-top:5%;
-    padding-bottom:3%;
-    padding-left:5%;
-    padding-right:5%;
-    height:calc(100% - 10%);
+    flex-grow:1;
+    padding-top:10vh;
+    padding-bottom:5vh;
+    padding-left:5vw;
+    padding-right:5vw;
+    height:100%;
     width:100%;
     display:flex;
     flex-direction:column;
     `
 export const PicnomicImgMainContainer=styled.div`
-height:70%;
+height:65%;
 width:100%;
 background-color:transparent;
 display:flex;
@@ -39,7 +43,7 @@ export const PicnomicImgContainer=styled.div`
     height:100%;
     width:70%;
     background-color:#ffffff;
-    padding:10px;
+    padding:1.5vh;
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -47,10 +51,11 @@ export const PicnomicImgContainer=styled.div`
 `
 export const PicnomicImg = styled.img`
 margin-left:2vw;
-height:86.39px;
-width:326px;
-margin-top:2vw;
-margin-bottom:2vw;
+height:2vh;
+width:19vw;
+margin-top:5vh;
+height:10vh;
+margin-bottom:5vh;
 `
 export const PicnomicImgGreyContainer=styled.div`
     background-color:#f6f6f6;
@@ -62,13 +67,13 @@ export const PicnomicImgGreyContainer=styled.div`
 export const PicnomicAiImgContainer = styled.div`
     height: 100%;
     background-color:#ffffff;
-    margin-top:10px;
+    margin-top:2vh;
     border-radius:20px;
     display:flex;
     flex-direction:column;
     justify-content:flex-end;
     align-items:center;
-    padding:10px;
+    padding:1.5vh;
     width:70%;
 `
 export const AiImgContainer = styled.div`
@@ -89,17 +94,20 @@ export const PicnomicWordContainer=styled.div`
     padding-left:30px;
     padding-right:30px;
     padding-top:10px;
-    line-height:1;
+    line-height:2;
 `
 
 export const MainHead = styled.h1`
     font-weight:800;
     font-size:6vw;
-    margin-top:0.5vw;
+    margin-top:0.5vh;
     font-style:"Inter";
-    line-height:5.2vw;
+    line-height:9vh;
     margin-bottom:0px;
-
+    @media screen and (max-width:1200px){
+        font-size:8vh;
+        line-height:7vh;
+    }
 `
 
 export const MainPara = styled.p`
@@ -109,23 +117,30 @@ line-height: 34px;
 letter-spacing: 0em;
 text-align: left;
 color:#718400;
-margin-top:1.5vw;
+margin-top:3.5vh;
 margin-bottom:0px;
+@media screen and (max-width:1200px){
+    margin-top:2vh;
+    font-size:2.3vh;
+}
 `
 
 export const PageDescription = styled.p`
-font-size: 1vw;
+font-size: 1.8vh;
 font-weight: 400;
-line-height: 1.3vw;
+line-height: 2.5vh;
 letter-spacing: 0em;
 text-align: left;
-margin-top:3vw;
-font-family:"inter";
+margin-top:3vh;
+font-family:"Inter";
 color:#686868;
+@media screen and (max-width:1200px){
+    margin-top:2vh;
+}
 `
 
 export const DescriptionContainer = styled.div`
-    width:45%;
+    width:43%;
 
 `
 
@@ -139,7 +154,7 @@ background: -webkit-linear-gradient(#99AE1A,#778A00 );
 
 export const ButtonContainer = styled.div`
 width:100%;
-margin-left:30px;
+margin-left:5vh;
 display:flex;
 flex-direction:column;
 justify-content:flex-start;
@@ -176,14 +191,16 @@ height:0.6vw;
 
 export const HummingBeeImg = styled.img`
     display:inline-block;
-    position:absolute;
-    right:-0vw;
-    width:44%;
-    transform: translateY(-10.5vw);
+    position: absolute;
+    width:38vw;
+    right:3vw;
+    transform: translateY(-4.5vw);
+    
+    
 `
 export const WeAllContainer = styled.div`
 width:100%;
-margin-left:30px;
+margin-left:5vh;
 `
 
 export const PicnimicBottomContainer=styled.div`
