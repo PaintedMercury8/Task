@@ -16,7 +16,6 @@ export const ContentBackground = styled.div`
     width:100vw;
     height:100vh;
     background:linear-gradient(to bottom,#D9D9D9,#F8FFCC);
-    border-radius:10px;
     padding-top:1vw;
 `
 
