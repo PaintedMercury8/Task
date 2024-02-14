@@ -51,7 +51,6 @@ function NavBar({ mode, toggleColorMode }) {
           boxShadow: 0,
           bgcolor: 'transparent',
           backgroundImage: 'none',
-          mt: 2,
         }}
       >
         <Container maxWidth={false} sx={{width:`98%`}}>

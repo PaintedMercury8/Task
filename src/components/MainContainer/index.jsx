@@ -4,7 +4,7 @@ import { AiImgItems } from "../AiImgItems"
 
 const imagesList=[{id:1,source:"/Pictures/Rectangle 46.png"},{id:2,source:"/Pictures/Rectangle 47.png"},{id:3,source:"/Pictures/Rectangle 48.png"},{id:4,source:"/Pictures/Rectangle 49.png"}]
 
-const MainContainer = ()=><MainBackground>
+const MainContainer = ()=>
     <ContentBackground>
     <NavBar/>
     <Content>
@@ -37,7 +37,7 @@ const MainContainer = ()=><MainBackground>
         </PicnimicBottomContainer>
     </Content>
     </ContentBackground>
-    </MainBackground>
+  
 
 
 export default MainContainer

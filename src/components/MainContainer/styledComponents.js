@@ -12,10 +12,12 @@ export const MainBackground = styled.div`
 `
 
 export const ContentBackground = styled.div`
-    width:100%;
-    height:100%;
+    margin-top:0px;
+    width:100vw;
+    height:100vh;
     background:linear-gradient(to bottom,#D9D9D9,#F8FFCC);
     border-radius:10px;
+    padding-top:1vw;
 `
 
 export const Content=styled.div`
@@ -176,8 +178,8 @@ height:0.6vw;
 export const HummingBeeImg = styled.img`
     display:inline-block;
     position:absolute;
-    right:-1vw;
-    width:45%;
+    right:-0vw;
+    width:44%;
     transform: translateY(-10.5vw);
 `
 export const WeAllContainer = styled.div`
